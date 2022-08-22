@@ -23,7 +23,8 @@
 }
 
 .page{
-    @include flex(flex-start, auto);    
+    @include flex(flex-start, auto);
+    column-gap: 110px;    
 
     padding: 30px;
     height: 100%;
@@ -66,13 +67,15 @@
     @include desktop-xsm {
         display: block;
         position: absolute;
-        top: 120px;
+        top: 150px;
+        margin-left: 20px;
     };
     
     @include mobile {
         display: block;
         position: absolute;
-        top: 120px;
+        top: 150px;
+        margin-left: 20px;
     };
 }
 

@@ -1,0 +1,63 @@
+@use 'src/scss' as *;
+
+.drawer{
+    background-color: #ffffff;
+    border: solid 2px $main-color;
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+    height: 100%;
+    width: 210px;
+    label{
+        margin-left: 15px;
+    }
+}
+
+.title{
+    margin-bottom: 8px;
+}
+
+.checkbox{
+    -webkit-appearance: none;
+	background-color: $body-bg;
+	border: 1px solid #cacece;
+	padding: 7.5px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.checkbox:active, .checkbox:checked:active{
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 2px 4px rgba(0,0,0,0.1);
+}
+
+.checkbox:checked{
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+.checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	bottom: -1px;
+	left: 3px;
+	color: $main-color;
+}
+
+.close{
+    display: none;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    @include button;
+
+    @include desktop-xsm {
+        display: inline;
+    };
+    
+    @include mobile {
+        display: inline;
+    };
+}

@@ -1,0 +1,13 @@
+@use 'src/scss/' as *;
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+    width: 300px;
+    padding-block: 30px;
+
+}

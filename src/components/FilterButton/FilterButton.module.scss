@@ -1,0 +1,10 @@
+@use 'src/scss' as *;
+
+.button{
+    @include button;
+    margin-bottom: 30px;
+}
+
+.icon{
+    vertical-align: middle;
+}

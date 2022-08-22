@@ -8,8 +8,6 @@ import styles from './List.module.scss';
 
 function List({filteredProducts}:{filteredProducts: typeof Products}) {
 
-  // const [cardHover, setCardHover] = useState(styles.detailsCard);
-  
   return (
     <div className={styles.list}>
       {

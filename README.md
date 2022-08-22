@@ -1,5 +1,5 @@
 <h1 align="left">
-    <img alt="" title="" src="imgs/logo.png">
+    <img alt="" title="" src="imgs/logo.png" height="96">
 </h1>
 
 <h2 align="center"> Lista de produtos feita como parte do Processo Seletivo TBB</h2>
